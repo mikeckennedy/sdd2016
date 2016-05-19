@@ -62,3 +62,7 @@ target/
 .ipynb_checkpoints
 bin/
 scaling_nosql/perf_book_app/BookStore/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+scaling_nosql/perf_book_app/BookStore/obj/
+scaling_nosql/perf_book_app/BookStoreTest/obj/Debug/BookStoreTest.csproj.FileListAbsolute.txt
+scaling_nosql/perf_book_app/BookStoreTest/obj/
+scaling_nosql/perf_book_app/MongoDB.Extensions/obj/Debug/MongoDB.Extensions.csproj.FileListAbsolute.txt
