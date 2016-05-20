@@ -1,0 +1,26 @@
+<div metal:use-macro="view.layout">
+
+    <div metal:fill-slot="content">
+
+
+        <div class="error-msg" tal:condition="error">
+            ${error}
+        </div>
+
+        <form action="" method="POST" id="add-post">
+
+            <input type="text" name="title" placeholder="Post title"
+                class="form-control" value="${title}" />
+            <input type="text" name="url" placeholder="Post url (relative)"
+            class="form-control" required  value="${url}"/>
+            <textarea placeholder="Post contents" rows="10"  name="content"
+            class="form-control" required
+            ></textarea>
+            <button class="btn btn-primary" type="submit">Create post</button>
+
+        </form>
+
+
+    </div>
+
+</div>

@@ -1,0 +1,20 @@
+.pub-text {
+    font-size: .85em;
+    color: gray;
+}
+
+.post-title> a {
+    color: white;
+}
+
+#add-post {
+    color:black;
+}
+#add-post > * {
+    margin: 10px;
+}
+
+.error-msg {
+    color: yellow;
+    font-weight: bold;
+}
