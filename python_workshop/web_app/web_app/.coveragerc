@@ -1,0 +1,3 @@
+[run]
+source = web_app
+omit = web_app/test*
