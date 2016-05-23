@@ -1,0 +1,11 @@
+<div metal:use-macro="view.layout">
+
+    <div metal:fill-slot="content">
+       <h1>${title}</h1>
+        <div class="pub-text">${created}</div>
+        <div>
+            imagine there was content
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,16 @@
+<div metal:use-macro="view.layout">
+
+    <div metal:fill-slot="content">
+        <a href="/admin/add_post">Add post</a>
+
+
+    <div>
+        <button class="btn btn-primary show_users">Show users</button>
+    <div id="user_count"></div>
+
+    </div>
+
+
+    </div>
+
+</div>
